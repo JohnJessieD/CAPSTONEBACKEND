@@ -1,0 +1,257 @@
+CRITICAL - 2024-01-08 05:17:33 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::requestMoney(), 0 passed in C:\laragon\www\CapstBack\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:17:33 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::requestMoney(), 0 passed in C:\laragon\www\CapstBack\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:17:33 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::requestMoney(), 0 passed in C:\laragon\www\CapstBack\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:17:34 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::requestMoney(), 0 passed in C:\laragon\www\CapstBack\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:17:34 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::requestMoney(), 0 passed in C:\laragon\www\CapstBack\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:17:42 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->insert(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:17:56 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->insert(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:18:08 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::requestMoney(), 0 passed in C:\laragon\www\CapstBack\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:18:57 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->insert(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:24:11 --> TypeError: CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, stdClass given, called in C:\laragon\www\CapstBack\app\Controllers\Home.php on line 27
+in SYSTEMPATH\Validation\Validation.php on line 135.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Validation\Validation->run(Object(stdClass), 'your_validation_group')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:25:23 --> CodeIgniter\Validation\Exceptions\ValidationException: "your_validation_group" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 740.
+ 1 SYSTEMPATH\Validation\Validation.php(740): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('your_validation_group')
+ 2 SYSTEMPATH\Validation\Validation.php(147): CodeIgniter\Validation\Validation->loadRuleGroup('your_validation_group')
+ 3 APPPATH\Controllers\Home.php(28): CodeIgniter\Validation\Validation->run([...], 'your_validation_group')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+ERROR - 2024-01-08 05:26:15 --> There is no data to insert.
+ERROR - 2024-01-08 05:26:22 --> There is no data to insert.
+ERROR - 2024-01-08 05:26:25 --> There is no data to insert.
+ERROR - 2024-01-08 05:26:38 --> There is no data to insert.
+CRITICAL - 2024-01-08 05:26:54 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->insert(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:26:59 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->insert(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 05:27:14 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->insert(Object(stdClass))
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:13:18 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\laragon\www\CapstBack\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/', 'Home', 'index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\laragon\\www\\CapstBack\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:18:06 --> ParseError: syntax error, unexpected variable "$model"
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:18:20 --> ParseError: syntax error, unexpected variable "$model"
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:18:32 --> ParseError: syntax error, unexpected variable "$model"
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:19:36 --> ParseError: syntax error, unexpected variable "$model"
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:20:21 --> ParseError: syntax error, unexpected variable "$model"
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 11:20:25 --> ParseError: syntax error, unexpected variable "$model"
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:33:39 --> ErrorException: Undefined property: stdClass::$id
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:34:17 --> ErrorException: Undefined property: stdClass::$id
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:34:40 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:43:41 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:43:43 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:44:13 --> ErrorException: Undefined property: stdClass::$id
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:51:10 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
+CRITICAL - 2024-01-08 18:51:13 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CapstBack\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CapstBack\\public\\index.php')
