@@ -16,15 +16,21 @@ class UserController extends ResourceController
         $user = new UserModel();
         $token = $this->verification(50);
         $userRole = $this->request->getVar('role'); // Get the selected user role
-    
+        $category = $this->request->getVar('category'); // Get the selected user category
+        
+        // Get current date and time
+        $currentDateTime = date('Y-m-d H:i:s');
+        
         $data = [
             'username' => $this->request->getVar('username'),
             'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'token' => $token,
             'status' => 'active',
             'role' => $userRole, // Use the selected user role in the data array
+            'category' => $category, // Include the selected user category in the data array
+            'registration_date' => $currentDateTime // Include current date and time in the data array
         ];
-    
+        
         $u = $user->save($data);
         if ($u) {
             return $this->respond(['msg' => 'okay', 'token' => $token]);
@@ -39,7 +45,6 @@ class UserController extends ResourceController
         $str_result = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
         return substr(str_shuffle($str_result), 0, $length);
     }
-
     public function login()
     {
         $user = new UserModel();
@@ -51,13 +56,18 @@ class UserController extends ResourceController
             $pass = $data['password'];
             $authenticatePassword = password_verify($password, $pass);
             if ($authenticatePassword) {
-                return $this->respond(['msg' => 'okay', 'token' => $data['token'], 'role' => $data['role']]);
+                // Fetch the category information from the database
+                $category = $data['category']; // Assuming category is a column in your database table
+    
+                // Return the response with role and category
+                return $this->respond(['msg' => 'okay', 'token' => $data['token'], 'role' => $data['role'], 'category' => $category]);
             } else {
-                return $this->respond(['msg' => 'error'], 200);
+                return $this->respond(['msg' => 'error'], 500);
             }
         }
         return $this->respond(['msg' => 'userNotFound'], 404);
     }
+    
     
     public function registerAdmin()
     {
