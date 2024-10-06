@@ -1,0 +1,304 @@
+CRITICAL - 2024-04-20 02:55:48 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:55:52 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:57:21 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:57:25 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:57:26 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:57:33 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:58:02 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:58:04 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:58:04 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:58:09 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 02:58:15 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 04:57:53 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 04:57:54 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:53 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:54 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:54 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:55 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:55 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:56 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:56 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:18:56 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:19:03 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:19:03 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:19:27 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:19:28 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:34:17 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:34:18 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:34:19 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 06:34:45 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:19:04 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:19:05 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:19:14 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:19:29 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:19:44 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:19:45 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:30:34 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:30:35 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-20 07:30:42 --> ErrorException: Undefined property: stdClass::$requestId
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$requestId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->updateRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')

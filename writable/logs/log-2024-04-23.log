@@ -1,0 +1,32 @@
+CRITICAL - 2024-04-23 00:14:14 --> ErrorException: Undefined property: stdClass::$money_requestsId
+in APPPATH\Controllers\Home.php on line 95.
+ 1 APPPATH\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$money_requestsId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-23 00:19:31 --> ErrorException: Undefined property: stdClass::$money_requestsId
+in APPPATH\Controllers\Home.php on line 95.
+ 1 APPPATH\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$money_requestsId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-23 00:43:49 --> ErrorException: Undefined property: stdClass::$money_requestsId
+in APPPATH\Controllers\Home.php on line 95.
+ 1 APPPATH\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$money_requestsId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-04-23 00:43:49 --> ErrorException: Undefined property: stdClass::$money_requestsId
+in APPPATH\Controllers\Home.php on line 95.
+ 1 APPPATH\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$money_requestsId', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')

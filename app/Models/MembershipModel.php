@@ -4,16 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PWDModel extends Model
+class MembershipModel extends Model
 {
-    protected $table            = 'money_requests';
+    protected $table            = 'memberships';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = ['amount', 'reason', 'status', 'created_at'];
-
+    protected $allowedFields = ['name', 'dob', 'sickness', 'certificate'];
 
     // Dates
     protected $useTimestamps = false;

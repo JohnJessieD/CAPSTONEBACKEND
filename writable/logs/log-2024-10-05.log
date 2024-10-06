@@ -1,0 +1,38 @@
+CRITICAL - 2024-10-05 07:11:27 --> ErrorException: Undefined property: App\Controllers\Home::$model
+in APPPATH\Controllers\Home.php on line 180.
+ 1 APPPATH\Controllers\Home.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$model', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Membership()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-05 07:13:32 --> ErrorException: Undefined property: App\Controllers\Home::$MembershipModel
+in APPPATH\Controllers\Home.php on line 180.
+ 1 APPPATH\Controllers\Home.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$MembershipModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Membership()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-05 07:14:53 --> ErrorException: Undefined property: App\Controllers\Home::$MembershipModel
+in APPPATH\Controllers\Home.php on line 180.
+ 1 APPPATH\Controllers\Home.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$MembershipModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Membership()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-05 07:16:27 --> ErrorException: Undefined property: App\Controllers\Home::$MembershipModel
+in APPPATH\Controllers\Home.php on line 180.
+ 1 APPPATH\Controllers\Home.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$MembershipModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\Home.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Membership()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-05 07:19:00 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-05 07:19:13 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Home.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

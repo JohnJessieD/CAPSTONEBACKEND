@@ -133,19 +133,20 @@ class UserController extends ResourceController
 
         return $this->respond(['msg' => 'User created successfully']);
     }
+public function update_user($id)
+{
+    $userModel = new UserModel();
+    $data = [
+        'username' => $this->request->getVar('username'),
+        'role' => $this->request->getVar('role'),
+        'category' => $this->request->getVar('category'), // Add category field
+    ];
 
-    public function update_user($id)
-    {
-        $userModel = new UserModel();
-        $data = [
-            'username' => $this->request->getVar('username'),
-            'role' => $this->request->getVar('role'), // Add other fields as needed
-        ];
-    
-        $userModel->update($id, $data);
-    
-        return $this->respond(['msg' => 'User updated successfully']);
-    }
+    $userModel->update($id, $data);
+
+    return $this->respond(['msg' => 'User updated successfully']);
+}
+
 
     public function delete_user($id)
     {
