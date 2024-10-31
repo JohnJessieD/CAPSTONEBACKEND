@@ -1,0 +1,492 @@
+CRITICAL - 2024-10-27 07:19:21 --> Error: Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH\Controllers\UserController.php on line 254.
+ 1 APPPATH\Controllers\UserController.php(245): App\Controllers\UserController->sendPasswordResetEmail('jjdeniega377@gmail.com', '05ffddd72dd9dd7a38e8c87af1d844fd')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->forgotPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:19:46 --> Error: Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH\Controllers\UserController.php on line 254.
+ 1 APPPATH\Controllers\UserController.php(245): App\Controllers\UserController->sendPasswordResetEmail('jjdeniega377@gmail.com', '5b8da261b5774ac778ef41b120a9be31')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->forgotPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:20:05 --> Error: Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH\Controllers\UserController.php on line 254.
+ 1 APPPATH\Controllers\UserController.php(245): App\Controllers\UserController->sendPasswordResetEmail('jjdeniega377@gmail.com', '1db00c5c35e83ae71b36cf7d6542ad15')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->forgotPassword()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:32:58 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:32:58 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:01 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:12 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:12 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:12 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:12 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:13 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:13 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:13 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:13 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:14 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:14 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:14 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:14 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:14 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:15 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:15 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:15 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:27 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:27 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:27 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:27 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:28 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:28 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:28 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:28 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:28 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:29 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:30 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:30 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:30 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:32 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:32 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:33 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:33 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:34 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:34 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:34 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:34 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:34 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:38 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:40 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:46 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:57 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:57 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:58 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:33:58 --> ErrorException: Undefined property: App\Controllers\UserController::$userModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$userModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:35:14 --> ErrorException: Undefined property: App\Controllers\UserController::$UserModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$UserModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:35:14 --> ErrorException: Undefined property: App\Controllers\UserController::$UserModel
+in APPPATH\Controllers\UserController.php on line 342.
+ 1 APPPATH\Controllers\UserController.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$UserModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 342)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkUsername()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:35:14 --> ErrorException: Undefined property: App\Controllers\UserController::$UserModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$UserModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 07:35:14 --> ErrorException: Undefined property: App\Controllers\UserController::$UserModel
+in APPPATH\Controllers\UserController.php on line 349.
+ 1 APPPATH\Controllers\UserController.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$UserModel', 'C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php', 349)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->checkEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 12:12:50 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\UserController.php on line 252.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 12:20:28 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\UserController.php on line 252.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 12:23:36 --> ParseError: Unclosed '{' on line 12
+in APPPATH\Controllers\UserController.php on line 351.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CAPSTONEBACKEND\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 12:23:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/reset_password_invalid.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/reset_password_invalid.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/reset_password_invalid', [], true)
+ 3 APPPATH\Controllers\UserController.php(322): view('auth/reset_password_invalid')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->resetPasswordForm('2007374673a4bb9b1821a2f525dd9dda')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CAPSTONEBACKEND\\public\\index.php')
+CRITICAL - 2024-10-27 12:42:19 --> ErrorException: Cannot redeclare App\Controllers\UserController::loginAdmin()
+in APPPATH\Controllers\UserController.php on line 173.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-27 12:42:29 --> ErrorException: Cannot redeclare App\Controllers\UserController::loginAdmin()
+in APPPATH\Controllers\UserController.php on line 173.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-27 12:49:19 --> ErrorException: Cannot redeclare App\Controllers\UserController::loginAdmin()
+in APPPATH\Controllers\UserController.php on line 165.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-27 12:49:27 --> ErrorException: Cannot redeclare App\Controllers\UserController::loginAdmin()
+in APPPATH\Controllers\UserController.php on line 165.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

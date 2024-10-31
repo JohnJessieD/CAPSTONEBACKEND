@@ -109,6 +109,7 @@ private function sendVerificationEmail($email, $verificationToken)
         return bin2hex(random_bytes($length / 2));
     }
 
+ 
     public function login()
     {
         $user = new UserModel();
@@ -117,26 +118,21 @@ private function sendVerificationEmail($email, $verificationToken)
         $data = $user->where('username', $username)->first();
     
         if ($data) {
-            if ($data['status'] !== 'active') {
-                return $this->respond(['msg' => 'Please verify your email before logging in'], 403);
-            }
-
             $pass = $data['password'];
             $authenticatePassword = password_verify($password, $pass);
             if ($authenticatePassword) {
-                $category = $data['category'];
-                return $this->respond([
-                    'msg' => 'okay',
-                    'token' => $data['token'],
-                    'role' => $data['role'],
-                    'category' => $category
-                ]);
+                // Fetch the category information from the database
+                $category = $data['category']; // Assuming category is a column in your database table
+    
+                // Return the response with role and category
+                return $this->respond(['msg' => 'okay', 'token' => $data['token'], 'role' => $data['role'], 'category' => $category]);
             } else {
-                return $this->respond(['msg' => 'Invalid credentials'], 401);
+                return $this->respond(['msg' => 'error'], 500);
             }
         }
-        return $this->respond(['msg' => 'User not found'], 404);
+        return $this->respond(['msg' => 'userNotFound'], 404);
     }
+    
 
     public function registerAdmin()
     {
@@ -159,25 +155,7 @@ private function sendVerificationEmail($email, $verificationToken)
         }
     }
 
-    public function loginAdmin()
-    {
-        $user = new UserModel();
-        $username = $this->request->getVar('username');
-        $password = $this->request->getVar('password');
-        $data = $user->where('username', $username)->where('role', 'admin')->first();
-
-        if ($data) {
-            $pass = $data['password'];
-            $authenticatePassword = password_verify($password, $pass);
-            if ($authenticatePassword) {
-                return $this->respond(['msg' => 'okay', 'token' => $data['token']]);
-            } else {
-                return $this->respond(['msg' => 'Invalid credentials'], 401);
-            }
-        } else {
-            return $this->respond(['msg' => 'Admin not found'], 404);
-        }
-    }
+ 
 
     public function users($id = null)
     {
@@ -227,112 +205,125 @@ private function sendVerificationEmail($email, $verificationToken)
 
         return $this->respond(['msg' => 'User deleted successfully']);
     }
-    
     public function forgotPassword()
     {
-        $email = $this->request->getVar('email');
-        $user = new UserModel();
-        $userData = $user->where('email', $email)->first();
-
-        if ($userData) {
-            $resetToken = $this->generateToken(32);
+        $email = $this->request->getPost('email');
+        $userModel = new UserModel();
+        $user = $userModel->where('email', $email)->first();
+    
+        if ($user) {
+            $resetToken = bin2hex(random_bytes(16));
             $resetTokenCreatedAt = date('Y-m-d H:i:s');
-            $user->update($userData['id'], [
+            $userModel->update($user['id'], [
                 'reset_token' => $resetToken,
                 'reset_token_created_at' => $resetTokenCreatedAt
             ]);
-
+    
             $this->sendPasswordResetEmail($email, $resetToken);
-
-            return $this->respond(['msg' => 'Password reset instructions have been sent to your email.']);
-        } else {
-            return $this->respond(['msg' => 'If the email exists in our system, password reset instructions will be sent.']);
         }
+    
+        // Always return a success message to prevent email enumeration
+        return $this->respond(['message' => 'If the email exists in our system, password reset instructions will be sent.']);
     }
+    
     private function sendPasswordResetEmail($email, $resetToken)
     {
-        $mail = new PHPMailer(true);
+        $emailService = \Config\Services::email();
     
-        try {
-            $mail->isSMTP();
-            $mail->Host       = 'smtp.gmail.com';
-            $mail->SMTPAuth   = true;
-            $mail->Username   = 'stmswdapp@gmail.com';
-            $mail->Password   = 'kamp eoxb tobq rplv';
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-            $mail->Port       = 465;
+        $emailService->setFrom('stmswdapp@gmail.com', 'San Teodoro MSWD');
+        $emailService->setTo($email);
     
-            // Sender details
-            $mail->setFrom('stmswdapp@gmail.com', 'San Teodoro MSWD');
-            $mail->addAddress($email);
+        $emailService->setSubject('Reset Your STMSWD Password');
+        $emailService->setMailType('html');
     
-            // Reset link and subject
-            $resetLink = site_url("reset-password/$resetToken");
-            $mail->Subject = 'Reset Your STMSWD Password';
+        $resetLink = site_url("reset-password/{$resetToken}");
+        $emailContent = $this->getPasswordResetEmailBody($resetLink);
     
-            // HTML email body
-            $mail->isHTML(true);
-            $mail->Body = "
-                <div style='font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4;'>
-                    <div style='max-width: 600px; margin: auto; background-color: #ffffff; padding: 20px; border-radius: 8px;'>
-                        <h2 style='color: #4CAF50; text-align: center;'>Password Reset Request</h2>
-                        <p style='color: #333333; text-align: center; font-size: 16px;'>
-                            We received a request to reset your password. Click the link below to proceed.
-                        </p>
-                        <div style='text-align: center; margin-top: 20px;'>
-                            <a href='$resetLink' style='padding: 10px 20px; background-color: #4CAF50; color: #ffffff;
-                            text-decoration: none; border-radius: 5px; font-size: 16px;'>Reset Password</a>
+        $emailService->setMessage($emailContent);
+    
+        if (!$emailService->send()) {
+            log_message('error', 'Password reset email could not be sent. Error: ' . $emailService->printDebugger(['headers']));
+        }
+    }
+    
+    private function getPasswordResetEmailBody($resetLink)
+    {
+        return '
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Reset Your STMSWD Password</title>
+        </head>
+        <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333333; margin: 0; padding: 0;">
+            <table role="presentation" style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <td style="padding: 0;">
+                        <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+                            <div style="text-align: center; margin-bottom: 20px;">
+                                <img src="https://via.placeholder.com/150x50?text=STMSWD+Logo" alt="STMSWD Logo" style="max-width: 150px;">
+                            </div>
+                            <div style="background-color: #ffffff; border-radius: 5px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); padding: 40px;">
+                                <h1 style="color: #4CAF50; font-size: 24px; margin-bottom: 20px; text-align: center;">Reset Your Password</h1>
+                                <p style="margin-bottom: 30px; text-align: center;">We received a request to reset your password. Click the button below to create a new password:</p>
+                                <div style="text-align: center;">
+                                    <a href="' . $resetLink . '" style="display: inline-block; background-color: #4CAF50; color: #ffffff; text-decoration: none; padding: 12px 30px; border-radius: 5px; font-weight: bold;">Reset Password</a>
+                                </div>
+                                <p style="margin-top: 30px; font-size: 14px; color: #666666; text-align: center;">If you didn\'t request a password reset, you can safely ignore this email.</p>
+                            </div>
+                            <div style="margin-top: 20px; text-align: center; font-size: 12px; color: #888888;">
+                                <p>&copy; ' . date('Y') . ' San Teodoro MSWD. All rights reserved.</p>
+                            </div>
                         </div>
-                        <p style='color: #555555; text-align: center; font-size: 14px; margin-top: 20px;'>
-                            If you did not request a password reset, please ignore this email.
-                        </p>
-                    </div>
-                </div>
-            ";
-    
-            $mail->send();
-        } catch (Exception $e) {
-            log_message('error', "Password reset email could not be sent. Mailer Error: {$mail->ErrorInfo}");
-        }
+                    </td>
+                </tr>
+            </table>
+        </body>
+        </html>
+        ';
     }
-    public function resetPasswordForm($token)
-    {
-        $user = new UserModel();
-        $userData = $user->where('reset_token', $token)->first();
 
-        if ($userData) {
-            $tokenCreatedAt = strtotime($userData['reset_token_created_at']);
+   public function resetPasswordForm($token)
+    {
+        $userModel = new UserModel();
+        $user = $userModel->where('reset_token', $token)->first();
+
+        if ($user) {
+            $tokenCreatedAt = strtotime($user['reset_token_created_at']);
             if (time() - $tokenCreatedAt > 3600) {
-                return view('reset_password_expired');
+                return view('/reset_password_expired');
             }
 
-            return view('reset_password_form', ['token' => $token]);
+            return view('/reset_password_form', ['token' => $token]);
         } else {
-            return view('reset_password_invalid');
+            return view('/reset_password_invalid');
         }
     }
 
-    public function resetPassword($token)
+    public function resetPassword()
     {
-        $user = new UserModel();
-        $userData = $user->where('reset_token', $token)->first();
+        $token = $this->request->getPost('token');
+        $newPassword = $this->request->getPost('new_password');
 
-        if ($userData) {
-            $tokenCreatedAt = strtotime($userData['reset_token_created_at']);
+        $userModel = new UserModel();
+        $user = $userModel->where('reset_token', $token)->first();
+
+        if ($user) {
+            $tokenCreatedAt = strtotime($user['reset_token_created_at']);
             if (time() - $tokenCreatedAt > 3600) {
-                return $this->respond(['msg' => 'Password reset token has expired. Please request a new one.'], 400);
+                return $this->fail('Password reset token has expired. Please request a new one.', 400);
             }
 
-            $newPassword = $this->request->getVar('new_password');
-            $user->update($userData['id'], [
+            $userModel->update($user['id'], [
                 'password' => password_hash($newPassword, PASSWORD_DEFAULT),
                 'reset_token' => null,
                 'reset_token_created_at' => null
             ]);
 
-            return $this->respond(['msg' => 'Password has been reset successfully. You can now log in with your new password.']);
+            return $this->respond(['message' => 'Password has been reset successfully. You can now log in with your new password.']);
         } else {
-            return $this->respond(['msg' => 'Invalid reset token'], 400);
+            return $this->fail('Invalid reset token', 400);
         }
     }
 }

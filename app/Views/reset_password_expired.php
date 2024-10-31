@@ -60,9 +60,12 @@
 </head>
 <body>
     <div class="message-container">
-        <h1>Password Reset Token Expired</h1>
-        <p>Your password reset token has expired. Please request a new one.</p>
+        <h1>Reset Token Expired</h1>
+    <p>We're sorry, but your password reset link has expired.</p>
+    <p>For security reasons, please request a new password reset link from the login page.</p>
         <a href="<?= site_url('forgot-password') ?>">Request New Password Reset</a>
+        
+    <p><a href="<?= site_url('login') ?>">Return to Login Page</a></p>
     </div>
 </body>
 </html>
