@@ -12,7 +12,7 @@ class PWDModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = ['amount', 'reason', 'status', 'created_at'];
+    protected $allowedFields    = ['user_id', 'amount', 'reason', 'status'];
 
 
     // Dates

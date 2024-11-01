@@ -134,6 +134,77 @@ private function sendVerificationEmail($email, $verificationToken)
     }
     
 
+
+    public function logintESTING()
+    {
+        $user = new UserModel();
+        $username = $this->request->getVar('username');
+        $password = $this->request->getVar('password');
+        $data = $user->where('username', $username)->first();
+
+        if ($data) {
+            $pass = $data['password'];
+            $authenticatePassword = password_verify($password, $pass);
+            if ($authenticatePassword) {
+                $sessionId = $this->generateSessionId();
+                $this->storeSession($data['id'], $sessionId);
+
+                $category = $data['category'];
+
+                return $this->respond([
+                    'status' => 'success',
+                    'message' => 'Login successful',
+                    'sessionId' => $sessionId,
+                    'token' => $data['token'],
+                    'role' => $data['role'],
+                    'category' => $category
+                ]);
+            } else {
+                return $this->respond(['status' => 'error', 'message' => 'Invalid password'], 401);
+            }
+        }
+        return $this->respond(['status' => 'error', 'message' => 'User not found'], 404);
+    }
+  // Session verification method
+  public function verifySession()
+  {
+      $sessionId = $this->request->getHeaderLine('X-Session-ID');
+      
+      if ($this->isValidSession($sessionId)) {
+          return $this->respond(['status' => 'success', 'message' => 'Session is valid']);
+      }
+      
+      return $this->failUnauthorized('Invalid or expired session');
+  }
+
+    private function generateSessionId()
+    {
+        return bin2hex(random_bytes(32));
+    }
+
+    private function storeSession($userId, $sessionId)
+    {
+        $session = \Config\Services::session();
+        $session->set($sessionId, [
+            'userId' => $userId,
+            'createdAt' => time(),
+            'expiresAt' => time() + (60 * 60 * 24) // 24 hours from now
+        ]);
+    }
+
+    private function isValidSession($sessionId)
+    {
+        $session = \Config\Services::session();
+        $sessionData = $session->get($sessionId);
+
+        if ($sessionData && $sessionData['expiresAt'] > time()) {
+            return true;
+        }
+
+        return false;
+    }
+
+
     public function registerAdmin()
     {
         $user = new UserModel();

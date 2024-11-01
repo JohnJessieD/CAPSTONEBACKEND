@@ -23,7 +23,8 @@ class UserModel extends Model
         'verification_token', 
         'registration_date',
         'reset_token',
-        'reset_token_created_at'
+        'reset_token_created_at',
+        'last_login'
     ];
 
     // Dates
