@@ -1,0 +1,328 @@
+CRITICAL - 2024-11-19 00:28:07 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 00:35:47 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 00:36:32 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 10:59:02 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 16:52:01 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 16:54:29 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:01:07 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:12:57 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:17:39 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:18:09 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:57:37 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:57:50 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 17:57:56 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:00:58 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:01:04 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:01:26 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:02:26 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:06:40 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:18:38 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 19:30:19 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:00:00 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:16:53 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:16:56 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:16:57 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:05 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:06 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:07 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:08 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:16 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:22 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:17:33 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:18:04 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:18:20 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:31:41 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:38:25 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:38:27 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:38:31 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:39:13 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:42:47 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:47:13 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-19 20:47:16 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()

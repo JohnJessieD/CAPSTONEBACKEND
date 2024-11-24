@@ -1,0 +1,656 @@
+CRITICAL - 2024-11-16 06:30:55 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 06:31:36 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 06:40:51 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:21:30 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:36:40 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:52:36 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:53:27 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:54:41 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:59:48 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 07:59:56 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 08:00:15 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 08:00:35 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 09:19:25 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 09:53:18 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 10:18:14 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 10:36:59 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 14:38:21 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 14:44:53 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 14:47:46 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 14:47:50 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 14:53:12 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 16:28:07 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 588.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 APPPATH/Controllers/Home.php(34): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 16:29:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 588.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(588): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 APPPATH/Controllers/Home.php(34): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 16:34:35 --> ErrorException: Undefined variable $input
+in APPPATH/Controllers/Home.php on line 53.
+ 1 APPPATH/Controllers/Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->requestMoney()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 16:42:46 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 16:42:54 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 16:46:38 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:22 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:30 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:37 --> Error: Class "App\Controllers\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 143.
+ 1 APPPATH/Controllers/Home.php(133): App\Controllers\Home->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:46 --> Error: Class "App\Controllers\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 143.
+ 1 APPPATH/Controllers/Home.php(115): App\Controllers\Home->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:47 --> Error: Class "App\Controllers\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 143.
+ 1 APPPATH/Controllers/Home.php(115): App\Controllers\Home->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:47 --> Error: Class "App\Controllers\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 143.
+ 1 APPPATH/Controllers/Home.php(115): App\Controllers\Home->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:48 --> Error: Class "App\Controllers\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 143.
+ 1 APPPATH/Controllers/Home.php(115): App\Controllers\Home->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:10:57 --> Error: Class "App\Controllers\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 143.
+ 1 APPPATH/Controllers/Home.php(133): App\Controllers\Home->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:12:27 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:38:48 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:38:53 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:38:56 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:39:00 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:39:01 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:39:13 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:40:33 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:40:37 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:41:48 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:41:50 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:48:50 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:48:51 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:49:16 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:49:58 --> ErrorException: Attempt to read property "requestId" on null
+in APPPATH/Controllers/Home.php on line 127.
+ 1 APPPATH/Controllers/Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:55:09 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:55:14 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:55:15 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:55:15 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:57:47 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 173.
+ 1 APPPATH/Controllers/Home.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:57:53 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 173.
+ 1 APPPATH/Controllers/Home.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 17:57:53 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 173.
+ 1 APPPATH/Controllers/Home.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(135): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->rejectRequest()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:00:24 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:15:26 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:18:57 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:19:01 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:19:27 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-16 18:19:29 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/Home.php(114): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-16 18:19:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Home.php(114): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:19:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/Home.php(114): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:19:29 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Home.php(114): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-16 18:19:41 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/Home.php(114): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-16 18:19:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Home.php(114): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:19:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/Home.php(114): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:19:41 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Home.php(114): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->acceptRequest()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:34:29 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:40:56 --> ErrorException: Undefined array key "fullName"
+in APPPATH/Controllers/Home.php on line 226.
+ 1 APPPATH/Controllers/Home.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(103): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->notifyUser()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:42:56 --> ErrorException: Undefined array key "fullName"
+in APPPATH/Controllers/Home.php on line 226.
+ 1 APPPATH/Controllers/Home.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(103): App\Controllers\Home->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->notifyUser()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:46:04 --> Error: Class "App\Controllers\Email" not found
+in APPPATH/Controllers/Home.php on line 113.
+ 1 APPPATH/Controllers/Home.php(99): App\Controllers\Home->sendScheduleNotificationEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->notifyUser()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:48:45 --> Error: Call to undefined method PHPMailer\PHPMailer\PHPMailer::setTo()
+in APPPATH/Controllers/Home.php on line 116.
+ 1 APPPATH/Controllers/Home.php(99): App\Controllers\Home->sendScheduleNotificationEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->notifyUser()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 18:59:11 --> ErrorException: Trait "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-16 18:59:35 --> ErrorException: Trait "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Home.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-16 19:00:21 --> ErrorException: require_once(/home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/ThirdParty/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Home.php on line 115.
+ 1 APPPATH/Controllers/Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(115): require_once()
+ 3 APPPATH/Controllers/Home.php(99): App\Controllers\Home->sendScheduleNotificationEmail()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->notifyUser()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 19:06:20 --> ErrorException: require_once(/home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/ThirdParty/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Home.php on line 115.
+ 1 APPPATH/Controllers/Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(115): require_once()
+ 3 APPPATH/Controllers/Home.php(99): App\Controllers\Home->sendScheduleNotificationEmail()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->notifyUser()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()

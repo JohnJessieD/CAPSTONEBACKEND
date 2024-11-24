@@ -12,7 +12,17 @@ class MembershipModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = ['name', 'dob', 'sickness', 'certificate'];
+    protected $allowedFields    = [
+        'name', 
+        'dob', 
+        'sickness', 
+        'certificate', 
+        'category', 
+        'categoryAttachment', 
+        'address', 
+        'idnumber' // Added the idnumber field
+    ];
+
 
     // Dates
     protected $useTimestamps = false;

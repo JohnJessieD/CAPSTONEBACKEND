@@ -1,0 +1,287 @@
+CRITICAL - 2024-11-07 15:54:10 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 16:11:18 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 16:11:23 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 16:31:06 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 16:46:01 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 16:57:33 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:04:44 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:06:13 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:07:01 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-07 17:23:29 --> mysqli_sql_exception: Column 'email' cannot be null in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-07 17:23:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:23:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:23:29 --> [Caused by] mysqli_sql_exception: Column 'email' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-07 17:23:31 --> mysqli_sql_exception: Column 'email' cannot be null in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-07 17:23:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:23:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:23:31 --> [Caused by] mysqli_sql_exception: Column 'email' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-07 17:24:21 --> mysqli_sql_exception: Column 'email' cannot be null in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-07 17:24:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:24:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'email' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:24:21 --> [Caused by] mysqli_sql_exception: Column 'email' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/UserController.php(252): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->create_user()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 17:58:54 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 18:50:55 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 18:52:08 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 19:22:58 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 19:33:23 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 19:41:08 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-07 19:44:40 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()

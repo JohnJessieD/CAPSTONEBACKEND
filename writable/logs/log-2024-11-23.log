@@ -1,0 +1,271 @@
+CRITICAL - 2024-11-23 04:23:13 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 04:31:47 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 05:08:29 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:18:01 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:18:11 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:19:22 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-23 16:19:40 --> mysqli_sql_exception: Duplicate entry '1111' for key 'id_number' in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-23 16:19:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:19:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:19:40 --> [Caused by] mysqli_sql_exception: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-23 16:19:56 --> mysqli_sql_exception: Duplicate entry '1111' for key 'id_number' in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-23 16:19:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:19:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:19:56 --> [Caused by] mysqli_sql_exception: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-23 16:20:58 --> mysqli_sql_exception: Duplicate entry '1111' for key 'id_number' in /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/app/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+#8 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+#9 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u752589419/domains/stmsdapp.space/public_html/backend/final/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u752589419/domains/stmsdapp.space/public_html/index.php(85): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-11-23 16:20:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:20:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:20:58 --> [Caused by] mysqli_sql_exception: Duplicate entry '1111' for key 'id_number'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/ResidentController.php(91): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ResidentController->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:25:14 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:25:30 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:25:35 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:25:56 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 16:35:02 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 17:02:26 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 17:34:33 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 17:58:24 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()

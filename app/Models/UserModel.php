@@ -24,6 +24,7 @@ class UserModel extends Model
         'registration_date',
         'reset_token',
         'reset_token_created_at',
+        'reset_token_expiration',
         'last_login'
     ];
 

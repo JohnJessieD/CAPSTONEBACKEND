@@ -64,7 +64,7 @@ if (! defined('ENVIRONMENT')) {
  */
 header('Access-Control-Allow-Origin:*');
 header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Request-With, Content-Type, Accept, Access-Control-Request-Method");
-header("Access-Control-Allow-Methods:GET, POST, Put, DELETE");
+header("Access-Control-Allow-Methods:GET, POST, PUT, DELETE");
 $method = $_SERVER['REQUEST_METHOD'];
 if($method == "OPTIONS"){
     die();

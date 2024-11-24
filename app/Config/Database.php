@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'researchcapstone',
+        'username'     => 'u752589419_stmswd',
+        'password'     => 'AdminSTMSWD@2024',
+        'database'     => 'u752589419_CapstoneMSWD',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

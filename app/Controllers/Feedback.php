@@ -22,4 +22,11 @@ class Feedback extends ResourceController
 
         return $this->respondCreated(['message' => 'Feedback created successfully']);
     }
+    public function getFeedback()
+    {
+        $Feedback = new FeedbackModel();
+        $feedback = $Feedback->findAll();
+
+        return $this->respond($feedback);
+    }
 }

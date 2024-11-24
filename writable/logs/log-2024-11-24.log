@@ -1,0 +1,118 @@
+CRITICAL - 2024-11-24 05:42:10 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-24 05:42:12 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-24 06:10:06 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-24 06:18:26 --> ErrorException: Undefined array key "expiresAt"
+in APPPATH/Controllers/UserController.php on line 200.
+ 1 APPPATH/Controllers/UserController.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserController.php(173): App\Controllers\UserController->isValidSession()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\UserController->verifySession()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-24 06:41:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u752589419_stmswd'@'localhost' (using password: YES) in C:\laragon\www\final\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\final\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'u752589419_stms...', 'AdminSTMSWD@202...', 'u752589419_Caps...', 3306, '', 0)
+#1 C:\laragon\www\final\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\final\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\final\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\final\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\laragon\www\final\app\Controllers\ResidentController.php(48): CodeIgniter\Model->countAllResults(false)
+#6 C:\laragon\www\final\system\CodeIgniter.php(941): App\Controllers\ResidentController->index()
+#7 C:\laragon\www\final\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResidentController))
+#8 C:\laragon\www\final\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\final\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\final\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\final\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\final\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\final\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\final\system\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\laragon\www\final\system\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\laragon\www\final\app\Controllers\ResidentController.php(48): CodeIgniter\Model->countAllResults(false)
+#5 C:\laragon\www\final\system\CodeIgniter.php(941): App\Controllers\ResidentController->index()
+#6 C:\laragon\www\final\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResidentController))
+#7 C:\laragon\www\final\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\final\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\final\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-11-24 06:41:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1697): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `residents`
+WHERE `residents`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 APPPATH\Controllers\ResidentController.php(48): CodeIgniter\Model->countAllResults(false)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ResidentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResidentController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\final\\public\\index.php')
+ERROR - 2024-11-24 06:41:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u752589419_stmswd'@'localhost' (using password: YES) in C:\laragon\www\final\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\final\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'u752589419_stms...', 'AdminSTMSWD@202...', 'u752589419_Caps...', 3306, '', 0)
+#1 C:\laragon\www\final\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\final\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\final\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\final\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\final\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\final\app\Controllers\UserController.php(234): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\final\system\CodeIgniter.php(941): App\Controllers\UserController->users()
+#8 C:\laragon\www\final\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\laragon\www\final\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\final\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\final\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\final\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\final\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\final\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\final\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\final\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\final\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\final\app\Controllers\UserController.php(234): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\final\system\CodeIgniter.php(941): App\Controllers\UserController->users()
+#7 C:\laragon\www\final\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\laragon\www\final\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\final\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\final\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-11-24 06:41:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(234): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->users()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\final\\public\\index.php')
